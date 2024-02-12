@@ -1,1 +1,2 @@
-npx --no-install lint-staged
+# .husky/pre-commit
+npm test
