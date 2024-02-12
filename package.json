@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky"
+    "lint": "eslint src --max-warnings=0",
+    "prepare": "husky",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
     "next": "14.1.0",
