@@ -1,2 +1,2 @@
-#!/bin/sh
-npx --no-install lint-staged
+# .husky/pre-commit
+npm run lint --fix
